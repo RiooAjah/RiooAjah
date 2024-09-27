@@ -1,3 +1,4 @@
+#!/bin/bash
 # Color
 BLUE='\033[0;34m'       
 RED='\033[0;31m'
@@ -476,7 +477,6 @@ EOF
 # Main script
 display_welcome
 install_jq
-check_token
 
 while true; do
   clear
@@ -541,3 +541,4 @@ while true; do
       9)
       Auto_Install_Panel
       ;;
+      
